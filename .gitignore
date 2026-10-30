@@ -1,0 +1,29 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Base de datos local con los datos del usuario
+habits.db
+habits.db-journal
+habits.db-wal
+habits.db-shm
+*.sqlite3
+
+# Secretos y configuración personal de Streamlit
+.streamlit/secrets.toml
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
